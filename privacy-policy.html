@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>City Tales Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the City Tales mobile app.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7faf8;
+      --surface: #ffffff;
+      --text: #14201d;
+      --muted: #4f5e59;
+      --primary: #1f6f5b;
+      --border: #d7e1dc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(20px, 4vw, 44px);
+      box-shadow: 0 12px 30px rgba(20, 32, 29, 0.06);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: var(--primary);
+    }
+
+    h2 {
+      margin-top: 32px;
+      font-size: 1.35rem;
+    }
+
+    p {
+      margin: 12px 0 0;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 24px;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .contact {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #eef6f2;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: #eef3f0;
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: June 13, 2026</p>
+
+      <p>
+        City Tales helps users explore Polish cities through walking routes,
+        map checkpoints, questions, facts, points, and progress tracking.
+      </p>
+      <p>
+        This policy explains what data the app uses, why it is used, and how
+        users can request deletion of their data.
+      </p>
+
+      <h2>App</h2>
+      <p>App name: City Tales</p>
+      <p>Android package name: <code>com.citytales.app</code></p>
+      <p>iOS bundle identifier: <code>com.citytales.app</code></p>
+      <p>Firebase project: <code>citytales-b0e9d</code></p>
+
+      <h2>Developer Contact</h2>
+      <p>Developer / project name: City Tales</p>
+      <p>Contact email:</p>
+      <a class="contact" href="mailto:citytales.support@gmail.com">citytales.support@gmail.com</a>
+
+      <h2>Data We Collect Or Process</h2>
+      <p>
+        City Tales may collect or process the following data when Firebase is
+        enabled and the user signs in:
+      </p>
+      <ul>
+        <li>
+          Account information: display name, email address, profile photo URL,
+          and Firebase user identifier from Google Sign-In or Apple Sign-In.
+        </li>
+        <li>
+          Progress data: selected city, selected route, completed points,
+          awarded points, route completion status, and related timestamps.
+        </li>
+        <li>
+          App activity: route interactions, completion events, and basic app
+          usage events used to understand and improve the app.
+        </li>
+        <li>
+          App diagnostics: crash logs, performance diagnostics, device
+          information, and technical events used to find and fix issues.
+        </li>
+        <li>
+          Device or app identifiers: Firebase installation identifiers,
+          analytics identifiers, App Check signals, and authentication-related
+          identifiers.
+        </li>
+        <li>
+          Location data: the app uses device location to show the user's
+          position and decide whether the user is near a route point.
+        </li>
+      </ul>
+      <p>The current app does not collect user-uploaded photos or videos.</p>
+
+      <h2>Location</h2>
+      <p>
+        City Tales asks for location permission because routes are based on real
+        places on a map. Location is used to:
+      </p>
+      <ul>
+        <li>show the user's position on the map,</li>
+        <li>estimate distance to the next route point,</li>
+        <li>unlock questions when the user is close enough to a place.</li>
+      </ul>
+      <p>
+        The app should not store the user's precise GPS history in Firestore.
+        Route progress is stored as completed route points, not as a continuous
+        location track.
+      </p>
+
+      <h2>Why We Use Data</h2>
+      <p>Data is used for:</p>
+      <ul>
+        <li>
+          app functionality, including sign-in, progress sync, route
+          completion, and point awards,
+        </li>
+        <li>account management,</li>
+        <li>
+          fraud prevention, security, and abuse prevention through Firebase App
+          Check and authentication,
+        </li>
+        <li>analytics and diagnostics,</li>
+        <li>crash reporting and reliability improvements,</li>
+        <li>future product improvements.</li>
+      </ul>
+
+      <h2>Third-Party Services</h2>
+      <p>City Tales uses third-party services and SDKs, including:</p>
+      <ul>
+        <li>Firebase Authentication,</li>
+        <li>Cloud Firestore,</li>
+        <li>Firebase App Check,</li>
+        <li>Firebase Analytics,</li>
+        <li>Firebase Crashlytics,</li>
+        <li>Firebase Remote Config,</li>
+        <li>Google Sign-In,</li>
+        <li>Sign in with Apple,</li>
+        <li>MapLibre and OpenStreetMap-based map tiles.</li>
+      </ul>
+      <p>
+        These providers may process data according to their own privacy terms
+        and as needed to provide app functionality, authentication,
+        diagnostics, analytics, or map display.
+      </p>
+
+      <h2>Data Sharing</h2>
+      <p>City Tales does not sell personal data.</p>
+      <p>
+        Data may be processed by service providers that help operate the app,
+        such as Firebase/Google services and Apple sign-in services. Data may
+        also be disclosed if required by law, security requirements, or abuse
+        prevention.
+      </p>
+
+      <h2>Data Retention</h2>
+      <p>
+        Account and progress data may be kept while the user account is active
+        or while needed to provide app functionality. Diagnostic and analytics
+        data may be kept according to Firebase/Google retention settings.
+      </p>
+
+      <h2>Data Deletion</h2>
+      <p>
+        Users can request deletion of their City Tales account data and progress
+        data by contacting:
+      </p>
+      <a class="contact" href="mailto:citytales.support@gmail.com">citytales.support@gmail.com</a>
+      <p>
+        The request should include the email address used to sign in to City
+        Tales.
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        City Tales uses Firebase services, authentication, App Check, Firestore
+        security rules, and encrypted network connections where supported to
+        protect app data. No system can be guaranteed to be completely secure,
+        but the app is designed to limit access to user progress data.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        City Tales is intended as a general audience app for exploring cities.
+        It is not designed specifically for children and should not knowingly
+        collect data from children without appropriate consent where required by
+        law.
+      </p>
+
+      <h2>Changes To This Policy</h2>
+      <p>
+        This policy may be updated as the app changes, for example when new
+        cities, routes, paid features, partner routes, or account features are
+        added.
+      </p>
+      <p>
+        The latest version is published at the public privacy policy URL used in
+        Google Play Console and App Store Connect.
+      </p>
+    </article>
+  </main>
+</body>
+</html>
